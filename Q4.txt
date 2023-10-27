@@ -1,0 +1,165 @@
+TASK 1:
+
+1. Declare four variables without assigning values and print them in console
+
+    var a,b,c,d;
+    console.log(a,b,c,d);
+
+2. How to get value of the variable myvar as output
+
+    var my_var = 10;
+    console.log(my_var);
+
+3. Declare variables to store your first name, last name, marital status, country and age in multiple lines
+
+    var first_name = "Priya";
+    var last_name = "Dharshini";
+    var marital_sts = "Unmarried";
+    var country = "India";
+
+4. Declare variables to store your first name, last name, marital status, country and age in a single line
+
+    var first_name = "Priya", last_name = "Dharshini", marital_sts = "Unmarried", country = "India";
+
+5. Declare variables and assign string, boolean, undefined and null data types
+
+    var res = true;         //Boolean
+    var result = "Pass";    //String
+    var total;              //Undefined
+    var marks = null;       //null
+
+6. Convert the string to integer
+
+    var marks = "100";
+    console.log(+marks)                         //using + sign
+    console.log(parseInt(marks))                //using parseInt keyword
+    console.log(Number(marks))                  //using Number() Method
+
+7. Write 6 statement which provide truthy & falsey values.
+
+    console.log(1 !== 9)        // true
+    console.log(10 === 9)       //false
+    console.log(true == true)   //true
+    console.log(7>9)            //false
+    console.log(4>=5)           //false
+    console.log(6<=6)           //true
+
+
+TASK 2:
+
+1.SQUARE OF A NUMBER
+
+    var a = 5;
+    var square = Math.pow(a,2);
+    cosole.log(square);
+
+2. SWAPPING TWO NUMBERS
+
+    var a = 3;
+    var b = 4;
+    var temp = a;
+    a=b;
+    b=temp;
+    console.log(a,b);  //a=4,b=3
+
+3. ADDITION OF 3 NUMBERS    
+
+    var a = 1
+    var b = 2
+    var c = 3
+    console.log(a+b+c)
+
+4. CELSIUS TO FAHRENHEIT CONVERSION
+
+    var celsius = 5
+    var farh = (celsius*9/5) + 32
+    console.log(farh)
+
+5. METER TO MILES
+
+    var mtr = 2
+    var mile = mtr * (0.00062137)
+    console.log(mile)
+
+6. POUNDS TO KG
+
+    var pound = 3
+    var kg = pound * 0.453
+    console.log(kg)
+
+7. CALCULATE BATTING AVERAGE
+
+    var run = 10000;
+    var no_of_matches = 250;
+    var not_out = 50;
+    var bat_avg = run / (no_of_matches-not_out);
+    console.log(bat_avg);
+
+8. CALCULATE FIVE TEST SCORES AND PRINT THEIR AVERAGE
+
+    var sc1 = 10;
+    var sc2 = 20;
+    var sc3 = 15;
+    var sc4 = 10;
+    var sc5 = 25;
+    var avg = (sc1+sc2+sc3+sc4+sc5)/5
+    console.log(avg);
+
+9. POWER OF ANY NUMBER 
+
+    var x = 5;
+    var y = 3;
+    var power = Math.pow(x,y);
+    console.log(power);
+
+10. SIMPLE INTEREST
+
+    var p = 1000;
+    var n = 5;
+    var r = 10;
+    var SI = (p*n*r)/100;
+    console.log(SI);
+
+11. AREA OF AN EQUILATERAL TRIANGLE     (All three sides equal)
+
+    var side1 = 5;
+    var side2 = 5;
+    var side3 = 5;
+    if(side1 === side2 && side2 === side3 && side1 === side3)
+        console.log("Equilateral Triangle");
+    else
+        console.log("Not an Equilateral Triangle");
+    
+12. AREA OF AN ISOCELES TRIANGLE           (Any 2 sides equal)
+
+    var side1 = 5;
+    var side2 = 10;
+    var side3 = 5;
+    if(side1 === side2 || side2 === side3 || side1 === side3)
+        console.log("Isoceles Triangle");
+    else    
+        console.log("Not and Isoceles Triangle");
+
+13. VOLUME OF SPHERE            (4/3*p*r^3)
+
+    var pi = 3.14;
+    var radius = 3;
+    var vol_sph = 4/3 * (pi * r * r * r );
+    console.log(vol_sph);
+
+14. VOLUME OF PRISM         (Triangular prism)
+
+    var l = 5;
+    var b = 8;
+    var h = 3;
+    var vol_prs = (l*b*h)/2;
+    console.log(vol_prs);
+
+15. AREA OF TRIANGLE
+
+    var b = 10;
+    var h = 15;
+    var area = (b*h)/2;
+    console.log(area);
+
+16. 

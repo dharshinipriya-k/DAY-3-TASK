@@ -162,4 +162,101 @@ TASK 2:
     var area = (b*h)/2;
     console.log(area);
 
-16. 
+16. 16. CALCULATE DISCOUNT OF PRODUCT
+
+    var actual_price = 100;
+    var sold_price = 80;
+    var discount = actual_price - sold_price;
+    var disc_percent = (discount/actual_price)*100;
+    console.log(disc_percent);
+
+17. FIND DIAMETER, CIRCUMFERENCE AND AREA OF CIRCLE
+
+    var radius = 10;
+    var pi = 3.14;
+    var dia = 2*radius;
+    var circum = 2*pi*r;
+    var area = pi*r*r;
+    console.log("Diameter:",dia);
+    console.log("Circumference:",circum);
+    console.log("Area:",area);
+
+18. PERFORMING ALL ARITHMETIC OPERATION
+
+    var a = 20;
+    var b = 5;
+    console.log("Add:",a+b);
+    console.log("Sub:",a-b);
+    console.log("Mul:",a*b);
+    console.log("Div:",a/b);
+    console.log("Mod:",a%b);
+
+19. PRINT ASTERIK PATTERN
+
+     for(var i=1; i<=5; i++)
+     {
+        console.log("*****");
+     }
+
+
+21. CALCULATE CGPA
+
+    var sub1 = 10;
+    var sub2 = 20;
+    var sub3 = 15;
+    var sub4 = 10;
+    var sub5 = 25;
+    var cgpa = (sub1+sub2+sub3+sub4+sub5)/5;
+    var cgpa_percent = cgpa * 9.5;
+    console.log(cgpa);
+    console.log(cgpa_percent);
+
+-----------------------------------------------------------------
+
+TASK 3
+
+1. PRINT PATTERN
+
+    var n = 7;
+    var str = "";
+    for (let i = 1; i <= n; i++)
+     {
+        for (let j = 0; j < i; j++) 
+        {
+            str += "*";
+        }
+        str += "\n";
+    }
+    console.log(string);
+
+
+2. ITERATE THROUGH STRING ARRAY AND PRINT IT CONTENTS
+
+    var strArray = ["Jazz", "Blues", "New Age", "Classical", "Opera"];
+    for(var i=0; i<strArray.length-1; i++)
+    {
+        console.log(strArray[i]);
+    }
+
+---------------------------------------------------------------------------
+ARRAYS:
+
+1. COUNT THE ELEMENTS IN ARRAY WITHOUT USING LENGTH
+    
+    var arr = [11,22,33,44,55];
+    var count= 0;
+    var i=0;
+    while(arr[i] !== undefined)
+    {
+         count++;
+        i = i+1;
+    }
+    console.log(count);
+
+2. FOODS ARRAY
+
+    let foods = ["aa","bb","cc","dd","ee","ff","gg","hh","ii","jj","kk","ll","mm","nn","oo","pp","qq","rr","ss","tt"];
+    var fifth_fav = foods[4];
+    console.log(fifth_fav);
+    console.log(foods.length)           //prints the length
+

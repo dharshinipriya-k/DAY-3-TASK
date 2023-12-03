@@ -8,7 +8,7 @@ let obj1 = {
 }
 
 let obj2 = {
-    age  : 5.
+    age  : 5,
     name : "Person1"
 }
 

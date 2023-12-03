@@ -8,9 +8,9 @@ let obj1 = {
 }
 
 let obj2 = {
-    
-    "age"  : "5",
-    "name" : "Person1"
+   
+    "name" : "Person1",
+    "age"  : "5"
 }
 
 console.log(JSON.stringify(obj1) === JSON.stringify(obj2)); //Used to convert a JS object into a string  ( It will return false as the order matters in stringify)

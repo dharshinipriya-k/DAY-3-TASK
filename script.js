@@ -3,14 +3,13 @@ console.log("-------------------------------------QUESTION 1--------------------
 // How to compare two JSON have the same properties without order?
 
 let obj1 = {
-    "name" : "Person1",
-    "age"  : "5"
+    name : "Person1",
+    age  : 5
 }
 
 let obj2 = {
-   
-    "name" : "Person1",
-    "age"  : "5"
+    age  : 5.
+    name : "Person1"
 }
 
 console.log(JSON.stringify(obj1) === JSON.stringify(obj2)); //Used to convert a JS object into a string  ( It will return false as the order matters in stringify)
